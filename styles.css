@@ -1,0 +1,158 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url('images/inhambane1.jpg');
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    background: #1d3557;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 119px;
+}
+
+.hero > p {
+    background: #457b9d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.activ {
+    width: 720px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 59px;
+    margin: 0 auto ;
+    background: #f1faee;
+}
+
+.activ p {
+    font-weight: 200;
+}
+
+.activ-item {
+    width: 198px;
+    height: 226px;
+}
+ 
+ img {
+     width: 200px;
+     height: 150px;
+ }
+ 
+.activ-item, img {
+    border-radius: 5px;
+}
+
+.activ-item img:hover {
+    transform: scale(1.2);
+}
+
+
+
+.guide-section {
+    width: 400px;
+    height: 294px;
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+    background: #a8dadc;
+    padding: 23px 13px;
+    border-radius: 5px;
+}
+
+.guide-section  p {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.guide-section img {
+    width: 180px;
+    height: 220px;
+}
+
+.location-section {
+    display: flex;
+
+    width: 720px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 59px;
+    margin: 0 auto ;
+    background: #f1faee;
+}
+
+.location-text {
+    padding: 45px 0;
+}
+
+ h5 {
+    padding: 0 35px;
+}
+
+.location-map {
+    padding: 10px 15px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .activ-item p {
+        display: none;
+    }
+    .activ {
+        height: 780px;
+        flex-direction: column;
+        align-items: center;
+     }
+}
+
+@media screen and (max-width: 720px) {
+    .guide-section {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .location-section {
+        height: 700px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
