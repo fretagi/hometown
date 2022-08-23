@@ -47,7 +47,11 @@ h2 {
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    opacity: 1;
+<<<<<<< HEAD
+    
+=======
+    opacity: 0.5;
+>>>>>>> ffead6cd998f757959eebd196d15ce4a6b068c3b
     font-weight: bold;
 }
 
@@ -62,7 +66,11 @@ h2 {
 }
 
 .activ p {
-    font-weight: 400;
+<<<<<<< HEAD
+    
+=======
+    font-weight: 200;
+>>>>>>> ffead6cd998f757959eebd196d15ce4a6b068c3b
 }
 
 .activ-item {
@@ -73,7 +81,10 @@ h2 {
  img {
      width: 200px;
      height: 150px;
-     transition: .5s;
+<<<<<<< HEAD
+     
+=======
+>>>>>>> ffead6cd998f757959eebd196d15ce4a6b068c3b
  }
  
 .activ-item, img {
@@ -97,9 +108,15 @@ h2 {
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .guide-section div p {
     font-style: italic;
     font-weight: 400;
+=======
+.guide-section  p {
+    font-style: italic;
+    font-weight: 200;
+>>>>>>> ffead6cd998f757959eebd196d15ce4a6b068c3b
 }
 
 .guide-section img {
