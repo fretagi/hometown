@@ -67,8 +67,7 @@ h2 {
 
 .activ p {
 
-    
-=======
+
     font-weight: 200;
 
 }
@@ -83,7 +82,6 @@ h2 {
      height: 150px;
 
      
-=======
 
  }
  
@@ -108,11 +106,11 @@ h2 {
     border-radius: 5px;
 }
 
-<<<<<<< HEAD
+
 .guide-section div p {
     font-style: italic;
     font-weight: 400;
-
+}
 .guide-section  p {
     font-style: italic;
     font-weight: 200;
