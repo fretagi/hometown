@@ -80,7 +80,7 @@ h2 {
  img {
      width: 200px;
      height: 150px;
-
+    transition: 0.5s;
      
 
  }
